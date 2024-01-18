@@ -10,6 +10,6 @@ sudo yum upgrade -y
 sudo yum autoremove -y
 sudo apt auto 
 
-sleep 60
+sleep 200
 
 echo "Server patching complete"
