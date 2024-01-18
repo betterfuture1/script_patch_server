@@ -1,0 +1,15 @@
+#!/bin/bash 
+
+#update package list
+sudo yum update
+
+# Upgrade installed packages
+sudo yum upgrade -y
+
+# clean up unnecessary packages and files
+sudo yum autoremove -y
+sudo apt auto 
+
+sleep 60
+
+echo "Server patching complete"
